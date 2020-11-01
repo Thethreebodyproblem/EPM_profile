@@ -1,0 +1,32 @@
+{
+ "pooling": {"“data_index”" : 313122,
+        "bin_size" : 45,
+        "q1" : 0.1,
+        "q2" : 1,
+        "elimination_step" : 50,
+        "elimination_upper" : 2000},
+             
+    "summary": {
+            "n_fit":4,
+            "platforms_path" : "platforms_cleaned.txt",
+                 "filter_trial" : 1,
+                 "HighRPM_threshold" : 0.6,
+                 "HighRPM_torque_threshold" : 80,
+                 "HighRPM_range_high" : 1800,
+                 "HighRPM_range_low"  : 1300,
+                 "MaxRPM_range_high" : 2400,
+                 "MaxRPM_range_low"  : 1600
+            },
+    "general":{
+    "bucket_name": "vnomics-external-data-analytics",
+    "data_path": "university_of_rochester_projects/data/raw/rpm_profile/round_2",
+    "summary_name": "trip_data_for_rpm_profile_detection_round_2.csv",
+    "folder_name" : "round_2",
+    "path_to_save" : "./data",
+    "mode" : "test",
+    "pool_result_path" : "pooling_result.csv",
+    "run_id" : "test_log_1"
+    }
+        
+        
+ }
